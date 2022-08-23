@@ -3,66 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,900;1,9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-  About
-  Services
-  Projects
-  Contact
+  <body>
+    <main class="container">
+        <section class="agency-website">
+            <section class="creative-orange-section">
+                <nav class="sunnyside-header">
+                    <img class="sunnyside-logo" alt="Sunnyside Logo" src="images/logo.svg">
+                    <img class="hamburger" alt="Navigation Menu Button" src="images/icon-hamburger.svg">
+                </nav>
+                <h1 class="we-are-creatives">
+                    We Are Creatives
+                </h1>
+                <img class="down-arrow" src="images/icon-arrow-down.svg" alt="White Down Arrow">
+            </section>
+            <section class="egg-transform-section">
+                <img class="egg" alt="Yellow Photo of Egg" src="images/mobile/image-transform.jpg">
+                <div class="brand-transformation">
+                    <h2 class="section-title">Transform Your Brand</h2>
+                    <p class="description">We are a full-service creative agency 
+                        specializing in helping brands grow fast. 
+                        Engage your clients through compelling 
+                        visuals that do most of the marketing for you.
+                    </p>
+                    <a href="#" class="learn-more-link">
+                        <span class="link-underline underline-yellow">Learn More</span>
+                        <span class="link-text">Learn More</span>
+                    </a>
+                </div>
+            </section>
+            <section class="pink-cup-stand-out-section">
+                <img class="pink-cup" alt="Conceptual Photography of Pink Cup" src="images/mobile/image-stand-out.jpg">
+                <div class="stand-out">
+                    <h2 class="section-title">
+                        Stand out to the right audience.
+                    </h2>
+                    <p class="description">
+                        Using a collaborative formula of designers, 
+                        researchers, photographers, videographers, 
+                        and copywriters, we’ll build and extend your 
+                        brand in digital places. 
+                    </p>
+                    <a href="#" class="learn-more-link">
+                        <span class="link-underline underline-pink">Learn More</span>
+                        <span class="link-text">Learn More</span>
+                    </a>
+                </div>
+            </section>
+            <section class="cherry-and-orange-sections">
+                <section class="graphic-design-section">
+                    <h2 class="section-title graphic-design-title">Graphic Design</h2>
+                    <p class="description graphic-design-description">
+                        Great design makes you memorable. We deliver artwork that underscores 
+                        your brand message and captures potential clients’ attention.
+                    </p>
+                </section>
+                <section class="photography-section">
+                    <h1 class="section-title photography-title">Photography</h1>
+                    <p class="description photography-description">
+                        Increase your credibility by getting the most stunning, 
+                        high-quality photos that improve your business image.
+                    </p>
+                </section>
+            </section>
+            <section class="testimonials-section">
+                <h3 class="client-testimonials">Client Testimonials</h3>
+                <section class="clients-section">
+                    <div class="client">
+                        <h4 class="client-name">Emily R.</h4>
+                        <h5 class="job-title">Marketing Director</h5>
+                        <p class="testimonial-description">
+                            We put our trust in Sunnyside and they delivered, 
+                            making sure our needs were met and deadlines were always hit.
+                        </p>
+                        <img class="client-photo" src="images/image-emily.jpg" alt="Portrait of young, blonde woman in pink blouse">
+                    </div>
+                    <div class="client">
+                        <h4 class="client-name">Thomas S.</h4>
+                        <h5 class="job-title">Chief Operating Officer</h5>
+                        <p class="testimonial-description">
+                            Sunnyside’s enthusiasm coupled with their keen 
+                            interest in our brand’s success made it a satisfying 
+                            and enjoyable experience.
+                        </p>
+                        <img class="client-photo" src="images/image-thomas.jpg" alt="Portrait of young, smiling man">
+                    </div>
+                    <div class="client">
+                        <h4 class="client-name">Jennie. F</h4>
+                        <h5 class="job-title">Business Owner</h5>
+                        <p class="testimonial-description">
+                            Incredible end result! Our sales increased 
+                            over 400% when we worked with Sunnyside. 
+                            Highly recommended!     
+                        </p>
+                        <img class="client-photo" src="images/image-jennie.jpg" alt="Portrait of a mature business owner.">
+                    </div>
+                </section>
+            </section>
+            <section class="image-grid-container">
+                <img class="grid-images grid-desktop-milk" src="images/mobile/image-gallery-milkbottles.jpg" alt="Milk bottles against a blue background with white clouds">
+                <img class="grid-images grid-desktop-orange" src="images/mobile/image-gallery-orange.jpg" alt="Orange on a white and blue plate against and orange background">
+                <img class="grid-images grid-desktop-cone" src="images/mobile/image-gallery-cone.jpg" alt="Waffle cone against a blue background">
+                <img class="grid-images grid-desktop-sugarcubes" src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Stacked sugar cubes against a pink background">
+            </section>
+        </section>
+    </main>
 
-  We are creatives
+    <footer>
+        <section class="footer-container">
+            <img class="footer-logo" src="images/logo.svg" alt="Sunnyside Footer Logo">
+            <navigation class="footer-nav-container">
+                <ul class="footer-nav">
+                    <a href="#" class="nav-link"><li>About</li></a>
+                    <a href="#" class="nav-link nav-link-center"><li>Services</li></a>
+                    <a href="#" class="nav-link"><li>Projects</li></a>
+                </ul>
+            </navigation>
+            <section class="social-media-icons">
+                <a href="https://www.facebook.com/"><img src="images/icon-facebook.svg" alt="Facebook icon linking to Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="images/icon-instagram.svg" alt="Instagram icon linking to Instagram"></a>
+                <a href="https://twitter.com/"><img src="images/icon-twitter.svg" alt="Twitter icon linking to Twitter"></a>
+                <a href="https://www.pinterest.com/"><img src="images/icon-pinterest.svg" alt="Pinterest icon linking to Pinterest."></a>
+            </section>
+        </section>
+    </footer>
+  </body>
+</html>
 
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-</body>
-</html>
+  
+    <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">-->
