@@ -1,35 +1,18 @@
-@mixin widhei($width, $height) {
+@mixin widhei($width: inherit, $height: inherit) {
     width: rem-calc($width);
     height: rem-calc($height);
 }
 
-@mixin define-font($font-family: false, $size: false, $color: false, $weight: false,  $lh: false) {
-    @if $font-family {
-        font-family: $font-family;
-    } @else {
-        font-family: $default-font-family;
-    }
-    @if $size { 
-        font-size: $size; 
-    } @else {
-        font-size: $default-font-size;
-    }
-    @if $color { 
-        color: $color; 
-    } @else {
-        color: $default-font-color;
-    }
-    @if $weight { 
-        font-weight: $weight; 
-    } @else {
-        font-weight: $default-font-weight;
-    }
-    @if $line-height { 
-        line-height: $lh; 
-    }
+@mixin define-font($font-family: $default-font-family, $size: $default-font-size, $color: $default-font-color, $weight: $default-font-weight,  $line-height: $default-line-height, $text-align: center) {
+    font-family: $font-family;
+    font-size: $size;
+    color: $color; 
+    font-weight: $weight; 
+    line-height: $line-height;
+    text-align: $text-align;
 }
 
-@mixin element-alignment($display, $flex-direction, $align-items, $justify-content) {
+@mixin element-alignment($display: flex, $flex-direction: column, $align-items: center, $justify-content: center) {
     display: $display;
     flex-direction: $flex-direction;
     align-items: $align-items;    

@@ -1,0 +1,11 @@
+footer {
+    .footer-container {
+        .footer-nav-container{
+            .footer-nav {
+                .footer-logo {
+                    filter: brightness(0) saturate(100%) invert(37%) sepia(7%) saturate(5381%) hue-rotate(119deg) brightness(90%) contrast(66%);
+                }
+            }
+        }
+    }
+}
