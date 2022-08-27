@@ -1,6 +1,10 @@
-@mixin widhei($width: inherit, $height: inherit) {
-    width: rem-calc($width);
-    height: rem-calc($height);
+@mixin widhei($width: false, $height: false) {
+    @if($width) {
+        width: rem-calc($width);
+    }
+    @if($height) {
+        height: rem-calc($height);     
+    }
 }
 
 @mixin define-font($font-family: $default-font-family, $size: $default-font-size, $color: $default-font-color, $weight: $default-font-weight,  $line-height: $default-line-height, $text-align: center) {
