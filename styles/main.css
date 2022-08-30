@@ -31,7 +31,7 @@ html, body {
   width: 20.8333333333rem;
 }
 .container .agency-website .sunnyside-header {
-  margin: 1.7777777778rem, 1.3333333333rem, 0, 1.3333333333rem;
+  margin: 1.7777777778rem 1.3333333333rem 0 1.3333333333rem;
 }
 .container .agency-website .creative-orange-section {
   height: 29.8888888889rem;
@@ -41,27 +41,65 @@ html, body {
   font-weight: 600;
   line-height: -0.0072222222rem;
   text-align: center;
-  background-image: url(images/mobile/image-header.jpg);
+  background-image: url(../images/mobile/image-header.jpg);
   background-position: center 75%;
 }
-.container .agency-website .egg-transform,
+.container .agency-website .egg-transform-section,
 .container .agency-website .pink-cup-stand-out-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   height: 41.6111111111rem;
+}
+.container .agency-website .graphic-design-section {
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+}
+.container .agency-website .photography-section {
+  background-image: url(../images/mobile/image-photography.jpg);
 }
 .container .agency-website .creative-orange-section,
 .container .agency-website .photography-section,
 .container .agency-website .graphic-design-section {
   background-position: center 75%;
 }
-.container .agency-website .photography-section {
-  background-image: url(images/mobile/image-photography.jpg);
-  background-size: contain;
-}
 .container .agency-website .graphic-design-section,
 .container .agency-website .photography-section {
   height: 33.3333333333rem;
+  background-size: contain;
+}
+.container .agency-website .pink-cup,
+.container .agency-website .egg {
+  height: 17.3333333333rem;
+}
+.container .agency-website .brand-transformation,
+.container .agency-website .stand-out {
+  height: 24.2777777778rem;
+}
+.container .agency-website .brand-transformation,
+.container .agency-website .stand-out,
+.container .agency-website .egg-transform-section,
+.container .agency-website .pink-cup-stand-out-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .agency-website .testimonials-section {
+  height: 69.8888888889rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3.5555555556rem 1.3333333333rem 4.7777777778rem 1.3333333333rem;
+}
+.container .agency-website .client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .agency-website .image-grid-container {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .agency-website .image-grid-container .grid-images {
+  width: 10.4444444444rem;
+  height: 10.4444444444rem;
 }/*# sourceMappingURL=main.css.map */
