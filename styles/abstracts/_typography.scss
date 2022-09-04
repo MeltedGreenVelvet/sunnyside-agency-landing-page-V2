@@ -1,0 +1,62 @@
+/*
+---------------------
+MOBILE TYPOGRAPHY
+---------------------
+*/
+
+.we-are-creatives {
+    @include define-font (
+        $font-family: $display-font-family, 
+        $font-size: rem-calc(40px),
+        $text-transform: uppercase,
+        $font-weight: $bolder-font,
+        $line-height: rem-calc(49.32px));
+    letter-spacing: rem-calc(6.25px);
+    margin-top: rem-calc(144px);
+}
+
+.section-title {
+    @include define-font (
+        $font-family: $display-font-family,
+        $font-weight: $bolder-font,
+        $font-size: rem-calc(32px),
+        $line-height: rem-calc(39.46px),
+        $color: #24303E);
+    letter-spacing: rem-calc(-0.23px);
+}
+
+.description {
+    padding: rem-calc(24px 0 32px 0);
+}
+
+.graphic-design-description,
+.graphic-design-title {
+    color: #24554A;
+}
+
+.photography-title {
+    color: #052C3B;
+}
+
+.photography-description {
+    color: #19536C;
+}
+
+.graphic-design-description,
+.photography-description {
+    @include define-font (
+        $font-size: rem-calc(16px),
+        $line-height: rem-calc(27px));
+    letter-spacing: rem-calc(-.11px);
+    padding: rem-calc(27px 24px 59px 24px);
+}
+
+.graphic-design-title,
+.photography-title {
+    @include define-font (
+        $font-size: rem-calc(28px),
+        $line-height: rem-calc(34.52px),
+        $font-weight: $bolder-font);
+    padding-top: 24.875rem;
+    letter-spacing: rem-calc(-.2px);
+}

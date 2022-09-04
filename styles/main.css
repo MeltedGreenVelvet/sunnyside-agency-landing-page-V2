@@ -1,3 +1,74 @@
+/*
+---------------------
+MOBILE TYPOGRAPHY
+---------------------
+*/
+.we-are-creatives {
+  font-family: "Fraunces", serif;
+  font-size: 2.2222222222rem;
+  color: #808397;
+  font-weight: 900;
+  line-height: 2.74rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3472222222rem;
+  margin-top: 8rem;
+}
+
+.section-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.7777777778rem;
+  color: #24303E;
+  font-weight: 900;
+  line-height: 2.1922222222rem;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: -0.0127777778rem;
+}
+
+.description {
+  padding: 1.3333333333rem 0 1.7777777778rem 0;
+}
+
+.graphic-design-description,
+.graphic-design-title {
+  color: #24554A;
+}
+
+.photography-title {
+  color: #052C3B;
+}
+
+.photography-description {
+  color: #19536C;
+}
+
+.graphic-design-description,
+.photography-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.8888888889rem;
+  color: #808397;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: -0.0061111111rem;
+  padding: 1.5rem 1.3333333333rem 3.2777777778rem 1.3333333333rem;
+}
+
+.graphic-design-title,
+.photography-title {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5555555556rem;
+  color: #808397;
+  font-weight: 900;
+  line-height: 1.9177777778rem;
+  text-align: center;
+  text-transform: none;
+  padding-top: 24.875rem;
+  letter-spacing: -0.0111111111rem;
+}
+
 footer .footer-container .footer-nav-container .footer-nav .footer-logo {
   filter: brightness(0) saturate(100%) invert(37%) sepia(7%) saturate(5381%) hue-rotate(119deg) brightness(90%) contrast(66%);
 }
@@ -14,6 +85,7 @@ html, body {
   font-weight: 600;
   line-height: -0.0072222222rem;
   text-align: center;
+  text-transform: none;
   box-sizing: border-box;
 }
 
@@ -41,6 +113,7 @@ html, body {
   font-weight: 600;
   line-height: -0.0072222222rem;
   text-align: center;
+  text-transform: none;
   background-image: url(../images/mobile/image-header.jpg);
   background-position: center 75%;
 }
